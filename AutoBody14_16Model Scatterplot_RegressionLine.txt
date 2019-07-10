@@ -1,0 +1,6 @@
+ggplot(AutoBody14_16Model, aes(Final_Employee, X2014.Total.Lbs..Calculated, color = Number.of.Painters)) +
++ geom_point(size = 3) + geom_abline(aes(slope = 12.0031, intercept = 530.2489))+
++ scale_x_continuous(name = "Number Of Employees") +
++ scale_y_continuous(name = "Annual Pounds VOC") +
++ scale_color_gradient2() +
++ theme_bw()
